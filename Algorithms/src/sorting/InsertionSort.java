@@ -1,5 +1,5 @@
 /**
- * Algorithm 1 - Insertion Sort [Random generated 10 numbers] 
+ * Algorithm 1 - Insertion Sort [Random generated 10 numbers] - Ascending and Descending
  */
 package sorting;
 import java.util.Random;
@@ -26,15 +26,28 @@ public class InsertionSort {
 		return 0;
 	}
 	
-	public int sortModule(){
-		for(int j=1; j<10; j++) {
-			int key = new_array[j];
-			int i = j - 1;
-			while(i >= 0 && key < new_array[i]) {
-				new_array[i+1] = new_array[i];
-				i = i - 1;
+	public int sortModule(String type){
+		if(type == "ASCENDING") {
+			for(int j=1; j<10; j++) {
+				int key = new_array[j];
+				int i = j - 1;
+				while(i >= 0 && key < new_array[i]) {
+					new_array[i+1] = new_array[i];
+					i = i - 1;
+				}
+				new_array[i+1] = key;
 			}
-			new_array[i+1] = key;
+		}
+		else {
+			for(int j=1; j<10; j++) {
+				int key = new_array[j];
+				int i = j - 1;
+				while(i >= 0 && key > new_array[i]) {
+					new_array[i+1] = new_array[i];
+					i = i - 1;
+				}
+				new_array[i+1] = key;
+			}	
 		}
 		return 0;
 	}
@@ -47,7 +60,11 @@ public class InsertionSort {
 		System.out.println("Initial Sequence");
 		insert.display();
 		System.out.println("Sorted Sequence");
-		insert.sortModule();
-		insert.display();
+		String type[] = {"ASCENDING", "DESCENDING"};
+		for(int i=0; i<2; i++) {
+			System.out.println(type[i] + " SORT");
+			insert.sortModule(type[i]);
+			insert.display();
+		}
 	}
 }
