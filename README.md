@@ -3,6 +3,8 @@
 ### Sorting Algorithms
 1. Insertion Sort
 2. Selection Sort
+3. Merge Sort
 
 ### Searching Algorithms
 1. Linear Search
+2. Binary Search
