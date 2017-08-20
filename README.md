@@ -14,3 +14,4 @@
 ### General
 1. Horner's Rule
 2. Inversion Algorithm
+3. Maximum Sub-Array
