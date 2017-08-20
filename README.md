@@ -10,3 +10,6 @@
 ### Searching Algorithms
 1. Linear Search
 2. Binary Search
+
+### Polynomial Equation Evaluation
+1. Horner's Rule
