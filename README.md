@@ -11,5 +11,6 @@
 1. Linear Search
 2. Binary Search
 
-### Polynomial Equation Evaluation
+### General
 1. Horner's Rule
+2. Inversion Algorithm
