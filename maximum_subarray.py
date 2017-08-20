@@ -1,4 +1,4 @@
-# Maximum Sub-Array
+# Maximum Sub-Array [ Time complexity - O(nlogn) ]
 
 from math import inf
 arr = [-8, 2, 3, 1, -1, -3, 5, -10]
