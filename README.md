@@ -31,5 +31,6 @@
 
 ### Matrix
 <ol>
+	<li>Square Matrix Multiplication</li>
 	<li>Strassen's Algorithm - Matrix Multiplication</li>
 </ol>
