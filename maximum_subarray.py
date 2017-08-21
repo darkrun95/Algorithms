@@ -1,7 +1,7 @@
 # Maximum Sub-Array [ Time complexity - O(nlogn) ]
 
 from math import inf
-arr = [-8, 2, 3, 1, -1, -7, 5, -10]
+arr = [-8, 2, 3, 1, -1, -7, 10, -10]
 
 # Method to find max crossing subarray
 def max_crossing_subarray(arr, low, mid, high):

@@ -1,7 +1,7 @@
 # Maximum Subarray problem using brute force [ Time complexity: O(n*n) ]
 
 from math import inf
-arr = [-8, 2, 3, 1, -1, -7, 5, -10]
+arr = [-8, 2, 3, 1, -1, -7, 10, -10]
 
 def maximum_subarray_brute_force(arr):
 	max_sum = -inf

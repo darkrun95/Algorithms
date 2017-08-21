@@ -24,6 +24,7 @@
 			<li>Brute Force</li>
 			<li>Recursive</li>
 			<li>Combination - Recursive and Brute Force</li>
+			<li>Linear Time</li>
 		</ul>
 	</li>
 </ol>
