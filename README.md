@@ -15,5 +15,5 @@
 1. Horner's Rule
 2. Inversion Algorithm
 3. Maximum Sub-Array 
-	i. Brute Force
-	ii. Recursive
+ i. Brute Force
+ ii. Recursive
