@@ -19,9 +19,10 @@
 <ol>
 	<li>Horner's Rule</li>
 	<li>Inversion Algorithm</li>
-	<li>Maximum Sub-Array</li>
-	<ol>
-		<li>Brute Force</li>
-		<li>Recursive</li>
-	</ol>
+	<li>Maximum Sub-Array
+		<ol>
+			<li>Brute Force</li>
+			<li>Recursive</li>
+		</ol>
+	</li>
 </ol>
