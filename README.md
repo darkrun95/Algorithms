@@ -23,6 +23,7 @@
 		<ul>
 			<li>Brute Force</li>
 			<li>Recursive</li>
+			<li>Combination - Recursive and Brute Force</li>
 		</ul>
 	</li>
 </ol>
