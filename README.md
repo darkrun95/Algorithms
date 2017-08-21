@@ -1,19 +1,27 @@
 ## Algorithms - Reference [Introduction to Algorithms - Thomas H. Cormen]
 
 ### Sorting Algorithms
-1. Insertion Sort
-2. Selection Sort
-3. Merge Sort
-4. Binary Insertion Sort
-5. Bubble Sort
+<ol>
+	<li>Insertion Sort</li>
+	<li>Selection Sort</li>
+	<li>Merge Sort</li>
+	<li>Binary Insertion Sort</li>
+	<li>Bubble Sort</li>
+</ol>
 
 ### Searching Algorithms
-1. Linear Search
-2. Binary Search
+<ol>
+	<li>Linear Search</li>
+	<li>Binary Search</li>
+</ol>
 
 ### General
-1. Horner's Rule
-2. Inversion Algorithm
-3. Maximum Sub-Array 
- i. Brute Force
- ii. Recursive
+<ol>
+	<li>Horner's Rule</li>
+	<li>Inversion Algorithm</li>
+	<li>Maximum Sub-Array</li>
+	<ol>
+		<li>Brute Force</li>
+		<li>Recursive</li>
+	</ol>
+</ol>
