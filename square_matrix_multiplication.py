@@ -1,4 +1,4 @@
-# Square Matrix Multiplication
+# Square Matrix Multiplication - Time complexity [O(n*n*n)]
 
 import numpy as np
 
