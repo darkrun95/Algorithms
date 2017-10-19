@@ -15,7 +15,7 @@ class MergeSort():
 	def __init__(self, arr):
 		self.time = __import__('time')
 		self.sorted_arr = arr
-		self.unsorted_arr = arr.copy
+		self.unsorted_arr = arr.copy()
 		self.time_taken = None
 
 	def merge(self, arr, low, mid, high):
@@ -36,31 +36,30 @@ class MergeSort():
 		j = 0
 		counter = low
 		left_flag, right_flag = False, False
-		while len(larr) == 0 or len(rarr) == 0:
+		while i != (mid-low) and j != (high-mid):
 			if larr[i] < rarr[j]:
-				arr[counter] = larr.pop(i)
+				arr[counter] = larr[i]
 				i = i + 1
 			else:
-				arr[counter] = rarr.pop(i)
+				arr[counter] = rarr[j]
 				j = j + 1
 			counter = counter + 1
 
-			if len(larr) == 0:
+			if i == (mid-low):
 				left_flag = True
-			elif len(rarr) == 0:
+			elif j == (high-mid):
 				right_flag = True
 
 		if left_flag:
-			while len(rarr) == 0:
-				arr[counter] = rarr.pop(j)
+			while j != (high-mid):
+				arr[counter] = rarr[j]
 				j = j + 1
 				counter = counter + 1
 		else:
-			while len(larr) == 0:
-				arr[counter] = larr.pop(i)
+			while i != (mid-low):
+				arr[counter] = larr[i]
 				i = i + 1
 				counter = counter + 1
-		print(arr)
 		return 
 
 	def mergesort(self, arr, low, high):
@@ -74,7 +73,7 @@ class MergeSort():
 		high: Upper bound index for the array
 		"""
 		mid = (high + low) // 2
-		if low < high:
+		if low != high-1:
 			self.mergesort(arr, low, mid)
 			self.mergesort(arr, mid, high)
 			self.merge(arr, low, mid, high)
@@ -87,7 +86,10 @@ class MergeSort():
 		Returns:
 		self: Object
 		"""
+		start_time = self.time.time()
 		low = 0
 		high = len(self.sorted_arr)
 		self.mergesort(self.sorted_arr, low, high)
+		end_time = self.time.time()
+		self.time_taken = end_time - start_time
 		return self
