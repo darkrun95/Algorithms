@@ -1,8 +1,7 @@
 ## Algorithms 
 
 <ol>
-	<li>Sorting Algorithms</li>
-	<li>
+	<li>Sorting Algorithms
 		<ul>
 			<li>
 				Insertion Sort
