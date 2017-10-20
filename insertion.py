@@ -20,7 +20,7 @@ class Insertion():
 		self.time = __import__('time')
 
 		self.unsorted_arr = arr.copy()
-		self.sorted_arr = arr
+		self.sorted_arr = arr.copy()
 		self.time_taken = None
 
 	def sort(self):

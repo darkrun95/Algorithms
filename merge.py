@@ -14,7 +14,7 @@ class MergeSort():
 	"""
 	def __init__(self, arr):
 		self.time = __import__('time')
-		self.sorted_arr = arr
+		self.sorted_arr = arr.copy()
 		self.unsorted_arr = arr.copy()
 		self.time_taken = None
 
