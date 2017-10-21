@@ -9,6 +9,9 @@
 			<li>
 				Merge Sort
 			</li>
+			<li>
+			    Heap Sort
+		    </li>
 		</ul>
 	</li>
 </ol>
