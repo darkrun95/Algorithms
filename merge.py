@@ -92,4 +92,4 @@ class MergeSort():
 		self.mergesort(self.sorted_arr, low, high)
 		end_time = self.time.time()
 		self.time_taken = end_time - start_time
-		return self
+		return
