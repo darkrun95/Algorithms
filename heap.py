@@ -73,9 +73,6 @@ class HeapSort():
 		self.sorted_arr = []
 		self.unsorted_arr = arr.copy()
 		self.upper_limit = 0
-		
-		self.calculate_upper_limit()
-		self.build_maxheap()
 
 	def sort(self):
 		"""
@@ -85,6 +82,8 @@ class HeapSort():
 		self: Object
 		"""
 		start_time = self.time.time()
+		self.calculate_upper_limit()
+		self.build_maxheap()
 		while len(self.arr) > 1:
 			self.arr[0], self.arr[len(self.arr)-1] = self.arr[len(self.arr)-1], self.arr[0]
 			self.sorted_arr.append(self.arr[len(self.arr)-1])
