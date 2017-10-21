@@ -12,6 +12,9 @@
 			<li>
 			    Heap Sort
 		    </li>
+		    <li>
+		        BST Sort
+		    </li>
 		</ul>
 	</li>
 </ol>
