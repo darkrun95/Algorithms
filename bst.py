@@ -28,6 +28,14 @@ class Bst():
 	Modules imported:
 	time: to calculate running time for the sorting module	
 	"""
+	def __init__(self, arr):
+		self.time = __import__('time')
+		self.sorted_arr = []
+		self.unsorted_arr = arr.copy()
+		self.arr = arr.copy()
+		self.time_taken = None
+		self.begin_node = TreeNode(self.arr.pop(0))
+		
 	def build_tree(self):
 		"""
 		Build Binary Tree from unordered array
@@ -53,15 +61,13 @@ class Bst():
 						break
 		return
 
-	def __init__(self, arr):
-		self.time = __import__('time')
-		self.sorted_arr = []
-		self.unsorted_arr = arr.copy()
-		self.arr = arr.copy()
-		self.time_taken = None
-		self.begin_node = TreeNode(self.arr.pop(0))
-
 	def inorder_tracing(self, node):
+		"""
+		Inorder traversal of tree to find sorted array
+
+		Parameters:
+		node: begin_node for the avl tree
+		"""
 		if node.lchild:
 			self.inorder_tracing(node.lchild)
 
@@ -72,6 +78,9 @@ class Bst():
 		return
 
 	def sort(self):
+		"""
+		Initiate the bst sort module
+		"""
 		start_time = self.time.time()
 		self.build_tree()
 		self.inorder_tracing(self.begin_node)

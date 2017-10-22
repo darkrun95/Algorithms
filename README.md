@@ -13,7 +13,10 @@
 			    Heap Sort
 		    </li>
 		    <li>
-		        BST Sort
+		        BST Sort [ Binary Search Tree ]
+		    </li>
+		    <li>
+		    	AVL Sort
 		    </li>
 		</ul>
 	</li>
