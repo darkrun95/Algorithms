@@ -210,5 +210,5 @@ class AVL():
 		self.build_avl()
 		self.inorder_tracing(self.begin_node)
 		end_time = self.time.time()
-		self.time_taken = end_time - start_time
+		self.time_taken = round(end_time - start_time, 3)
 		return

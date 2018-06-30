@@ -92,5 +92,5 @@ class HeapSort():
 			self.max_heapify(0)
 		self.sorted_arr.append(self.arr[0])
 		end_time = self.time.time()					
-		self.time_taken = end_time - start_time
+		self.time_taken = round(end_time - start_time, 3)
 		return 

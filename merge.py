@@ -91,5 +91,5 @@ class MergeSort():
 		high = len(self.sorted_arr)
 		self.mergesort(self.sorted_arr, low, high)
 		end_time = self.time.time()
-		self.time_taken = end_time - start_time
+		self.time_taken = round(end_time - start_time, 3)
 		return

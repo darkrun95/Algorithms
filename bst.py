@@ -16,7 +16,7 @@ class TreeNode():
 
 class Bst():
 	"""
-	Heap Sort:
+	Bst Sort:
 	Parameters: 
 	arr: Unsorted array
 
@@ -85,5 +85,5 @@ class Bst():
 		self.build_tree()
 		self.inorder_tracing(self.begin_node)
 		end_time = self.time.time()
-		self.time_taken = end_time - start_time
+		self.time_taken = round(end_time - start_time, 3)
 		return
