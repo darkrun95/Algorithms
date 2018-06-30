@@ -33,7 +33,7 @@
 		</h4>
 		<table>
 			<tr>
-				<td>Insertion</td>
+				<td>Insertion Sort</td>
 				<td>14.621s</td>
 			</tr>
 			<tr>
