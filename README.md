@@ -2,6 +2,7 @@
 
 <ol>
 	<li>Sorting Algorithms
+		<br/>
 		Comparison Model
 		<ul>
 			<li>
@@ -20,6 +21,7 @@
 		    	AVL Sort
 		    </li>
 		</ul>
+		<br/>
 		Integer Model
 		<ul>
 			<li>
