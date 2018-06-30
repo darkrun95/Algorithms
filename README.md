@@ -30,14 +30,32 @@
 			Running Time for the following Sort algorithms<br/>
 			Sample range: 1 - 100000<br/>
 			Sample size: 10000<br/>
-			<p>
-				Insertion: 		14.621s<br/>
-				Merge Sort: 	0.104s<br/>
-				Heap Sort: 		0.233s<br/>
-				BST Sort: 		0.081s<br/>
-				AVL Sort: 		0.345s<br/>
-				Radix Sort: 	0.03s<br/>
-			</p>
 		</h4>
+		<table>
+			<tr>
+				<td>Insertion</td>
+				<td>14.621s</td>
+			</tr>
+			<tr>
+				<td>Merge Sort</td>
+				<td>0.104s</td>
+			</tr>
+			<tr>
+				<td>Heap Sort</td>
+				<td>0.233s</td>
+			</tr>
+			<tr>
+				<td>BST Sort</td>
+				<td>0.081s</td>
+			</tr>
+			<tr>
+				<td>AVL Sort</td>
+				<td>0.345s</td>
+			</tr>
+			<tr>
+				<td>Radix Sort</td>
+				<td>0.03s</td>
+			</tr>
+		</table>
 	</li>
 </ol>
