@@ -27,7 +27,7 @@
 			</li>
 		</ul>
 		<h4>
-			Running Time for the following Sort algorithms<br/>
+			Running Time:<br/>
 			Sample range: 1 - 100000<br/>
 			Sample size: 10000<br/>
 		</h4>
