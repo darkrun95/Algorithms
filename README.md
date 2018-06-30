@@ -1,4 +1,4 @@
-## Algorithms 
+## Algorithms and Data Structures
 
 <ol>
 	<li>Sorting Algorithms
