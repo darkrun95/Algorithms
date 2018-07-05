@@ -13,6 +13,14 @@ class HeapSort():
 	time: to calculate running time for the sorting module	
 	math: ceil() - To calculate upper bound limit of array
 	"""
+	def __init__(self, arr):
+		self.time = __import__('time')
+		self.math = __import__('math')
+		self.time_taken = None
+		self.arr = arr.copy()
+		self.sorted_arr = []
+		self.unsorted_arr = arr.copy()
+		self.upper_limit = 0
 
 	def calculate_upper_limit(self):
 		self.upper_limit = self.math.ceil((len(self.arr)-1)/2) - 1
@@ -64,15 +72,6 @@ class HeapSort():
 		for i in range(self.upper_limit, -1, -1):
 			self.max_heapify(i)
 		return 
-
-	def __init__(self, arr):
-		self.time = __import__('time')
-		self.math = __import__('math')
-		self.time_taken = None
-		self.arr = arr.copy()
-		self.sorted_arr = []
-		self.unsorted_arr = arr.copy()
-		self.upper_limit = 0
 
 	def sort(self):
 		"""

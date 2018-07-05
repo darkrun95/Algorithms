@@ -64,6 +64,9 @@
 		Search Algorithms:
 		<ul>
 			<li>
+				Simple Substring Search
+			</li>
+			<li>
 				Karp Rabin
 			</li>
 		</ul>
