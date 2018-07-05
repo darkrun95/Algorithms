@@ -60,4 +60,12 @@
 			</tr>
 		</table>
 	</li>
+	<li>
+		Search Algorithms:
+		<ul>
+			<li>
+				Karp Rabin
+			</li>
+		</ul>
+	</li>
 </ol>
